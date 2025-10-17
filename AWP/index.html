@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWP - Página Principal</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        
+        h1 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem 1rem;
+        }
+        
+        .info {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            padding: 1.5rem;
+            background-color: white;
+            border: 1px solid #e0e0e0;
+        }
+        
+        .info h2 {
+            font-size: 1.8rem;
+            margin-bottom: 0.8rem;
+            color: #2c3e50;
+        }
+        
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            justify-content: center;
+        }
+        
+        .project {
+            flex: 1;
+            min-width: 300px;
+            max-width: 400px;
+            padding: 1.5rem;
+            background-color: white;
+            border: 1px solid #e0e0e0;
+            text-align: center;
+        }
+        
+        .project h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #2c3e50;
+        }
+        
+        .project p {
+            margin-bottom: 1.5rem;
+            color: #555;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 0.8rem 1.5rem;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border: none;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        
+        @media (max-width: 768px) {
+            .projects {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .project {
+                width: 100%;
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Aplicaciones Web Progresivas</h1>
+        <p>Unidad 1 - AWP</p>
+    </header>
+    
+    <main class="container">
+        <section class="info">
+            <h2>Jared Cortez Cruz</h2>
+            <p><strong>Matrícula:</strong> 22307052</p>
+        </section>
+        
+        <section class="projects">
+            <div class="project">
+                <h3>Proyecto SW</h3>
+                <p>Aplicación Web Progresiva básica</p>
+                <a href="SW/index.html" class="btn">Ver SW</a>
+            </div>
+            
+            <div class="project">
+                <h3>Proyecto SW2</h3>
+                <p>Aplicación Web Progresiva avanzada</p>
+                <a href="SW2/index.html" class="btn">Ver SW2</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
