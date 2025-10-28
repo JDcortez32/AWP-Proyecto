@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Personajes - Halo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* === MEDIDAS PARA PERSONAJES === */
+    .personaje-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: rgba(26, 26, 26, 0.6);
+      border-radius: 8px;
+      border-left: 4px solid #cba135;
+    }
+
+    .personaje-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-right: 20px;
+      border: 2px solid #ffd166;
+      box-shadow: 0 0 10px rgba(255, 209, 102, 0.4);
+    }
+
+    .personaje-texto {
+      flex: 1;
+      color: #fff7cc;
+      text-align: left;
+    }
+
+    .personaje-texto strong {
+      color: #ffd166;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img class="logo" src="logo.png" alt="Halo logo" />
+    <h1>Personajes Principales</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="pagina1.html">Historia</a>
+      <a href="pagina3.html">Armas & Vehículos</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Los Héroes del Universo Halo</h2>
+      <img src="imagen2.png" alt="Master Chief" class="img-page" />
+      <ul class="lista">
+        <li class="personaje-item">
+          <img src="master-chief.jpg" alt="Jefe Maestro" class="personaje-img" />
+          <strong>Jefe Maestro (John-117):</strong> El supersoldado Spartan-II, protagonista principal.
+        </li>
+        <li class="personaje-item">
+          <img src="cortana.jpg" alt="Cortana" class="personaje-img" />
+          <strong>Cortana:</strong> Inteligencia Artificial que guía y asiste al Jefe Maestro.
+        </li>
+        <li class="personaje-item">
+          <img src="inquisidor.jpg" alt="El Inquisidor" class="personaje-img" />
+          <strong>El Inquisidor:</strong> Guerrero del Covenant que cuestiona las creencias de su raza.
+        </li>
+        <li class="personaje-item">
+          <img src="keyes.jpg" alt="Comandante Keyes" class="personaje-img" />
+          <strong>Comandante Keyes:</strong> Oficial de la UNSC y figura clave en las primeras batallas.
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>

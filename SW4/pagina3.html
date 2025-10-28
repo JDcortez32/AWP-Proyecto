@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Armas y Vehículos - Halo</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* === MEDIDAS PARA PERSONAJES === */
+    .personaje-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      padding: 15px;
+      background: rgba(26, 26, 26, 0.6);
+      border-radius: 8px;
+      border-left: 4px solid #cba135;
+    }
+
+    .personaje-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 6px;
+      margin-right: 20px;
+      border: 2px solid #ffd166;
+      box-shadow: 0 0 10px rgba(255, 209, 102, 0.4);
+    }
+
+    .personaje-texto {
+      flex: 1;
+      color: #fff7cc;
+      text-align: left;
+    }
+
+    .personaje-texto strong {
+      color: #ffd166;
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <img class="logo" src="logo.png" alt="Halo logo" />
+    <h1>Armas & Vehículos</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="pagina1.html">Historia</a>
+      <a href="pagina2.html">Personajes</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>El Arsenal del Jefe Maestro</h2>
+      <img src="vehiculos-armas/armas.jpg" alt="armas" class="img-page" />
+      <div class="lista">
+        <h3>Armas:</h3>
+        <ul>
+          <li class="personaje-item">
+             <img src="vehiculos-armas/Rifle_de_Asalto_MA5B.png" alt="Rifle de Asalto MA5B" class="personaje-img" />
+             <strong>Rifle de Asalto MA5B</strong> 
+          </li>
+          <li class="personaje-item">
+             <img src="vehiculos-armas/Espada_de_Energia.png" alt="Espada de Energía" class="personaje-img" />
+             <strong>Espada de Energía</strong> 
+          </li>
+          <li class="personaje-item">
+             <img src="vehiculos-armas/Rifle_de_Batalla_BR55.png" alt="Rifle de Batalla BR55" class="personaje-img" />
+             <strong>Rifle de Batalla BR55</strong> 
+          </li>
+          <li class="personaje-item">
+             <img src="vehiculos-armas/Rifle_Covenant_de_Plasma.png" alt="Rifle Covenant de Plasma" class="personaje-img" />
+             <strong>Rifle Covenant de Plasma</strong> 
+          </li>
+        </ul>
+        <h3>Vehículos:</h3>
+        <ul>
+          <li class="personaje-item">
+             <img src="vehiculos-armas/warthog.png" alt="Warthog" class="personaje-img" />
+             <strong>Warthog</strong> 
+          </li>
+          <li class="personaje-item">
+             <img src="vehiculos-armas/Scorpion.png" alt="Scorpion" class="personaje-img" />
+             <strong>Scorpion</strong> 
+          </li>
+          <li class="personaje-item">
+             <img src="vehiculos-armas/Ghost.png" alt="Ghost" class="personaje-img" />
+             <strong>Ghost</strong> 
+          </li>
+          <li class="personaje-item">
+             <img src="vehiculos-armas/banshee.png" alt="Banshee" class="personaje-img" />
+             <strong>Banshee</strong> 
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

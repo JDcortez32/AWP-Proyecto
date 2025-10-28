@@ -1,0 +1,141 @@
+/* === ESTILO HALO CASCO JEFE MAESTRO === */
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  margin: 0;
+  background-color: #4b5320; /* verde oliva base */
+  color: #ffd166; /* dorado brillante */
+  text-align: center;
+}
+
+/* === ENCABEZADO === */
+header.hero {
+  background: linear-gradient(180deg, #cba135, #1a1a1a); /* dorado a gris oscuro */
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 2px 15px rgba(218, 185, 103, 0.4);
+}
+
+header .logo {
+  width: 240px;
+  margin-bottom: 2px;
+  filter: drop-shadow(0 0 6px #ffd166);
+}
+
+header h1 {
+  color: #fff7cc;
+  text-shadow: 0 0 10px rgba(203, 161, 53, 0.8);
+}
+
+/* === NAVEGACIÓN === */
+nav a {
+  color: #ffd166;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+nav a:hover {
+  color: #fff7cc;
+  text-shadow: 0 0 10px #cba135;
+}
+
+/* === BOTONES === */
+.controls {
+  margin-top: 15px;
+}
+
+button {
+  background-color: #cba135;
+  color: #1a1a1a;
+  border: 2px solid #ffd166;
+  padding: 8px 16px;
+  margin: 5px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 0 8px rgba(203, 161, 53, 0.4);
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #ffd166;
+  color: #000;
+  box-shadow: 0 0 15px rgba(255, 209, 102, 0.8);
+}
+
+/* === SECCIONES === */
+section {
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 10px;
+  background: rgba(26, 26, 26, 0.3);
+  border-radius: 10px;
+  border: 1px solid #cba135;
+  box-shadow: 0 0 12px rgba(255, 209, 102, 0.2);
+}
+
+section h2 {
+  color: #ffd166;
+}
+
+/* === MINIATURAS === */
+.thumbs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.thumbs article {
+  background: linear-gradient(145deg, #2c3014, #1a1a1a);
+  border: 2px solid #cba135;
+  border-radius: 10px;
+  padding: 10px;
+  width: 220px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.thumbs article:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 18px rgba(255, 209, 102, 0.7);
+}
+
+.thumbs img {
+  width: 100%;
+  border-radius: 8px;
+  border: 2px solid #ffd166;
+}
+
+/* === IMÁGENES GRANDES === */
+.img-page {
+  width: 80%;
+  border-radius: 12px;
+  margin: 15px auto;
+  display: block;
+  border: 3px solid #cba135;
+  box-shadow: 0 0 25px rgba(255, 209, 102, 0.4);
+}
+
+/* === LISTAS === */
+.lista {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: rgba(26, 26, 26, 0.5);
+  padding: 15px;
+  border-left: 4px solid #cba135;
+  border-radius: 6px;
+  color: #fff7cc;
+}
+
+/* === PIE DE PÁGINA === */
+footer {
+  background-color: #1a1a1a;
+  color: #ffd166;
+  padding: 15px;
+  font-size: 0.9em;
+  margin-top: 30px;
+  border-top: 2px solid #cba135;
+  box-shadow: 0 -2px 10px rgba(203, 161, 53, 0.3);
+}
